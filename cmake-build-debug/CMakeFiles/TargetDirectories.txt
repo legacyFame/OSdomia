@@ -1,0 +1,3 @@
+N:/3D Objects/OSdomia/cmake-build-debug/CMakeFiles/OSdomia.dir
+N:/3D Objects/OSdomia/cmake-build-debug/CMakeFiles/edit_cache.dir
+N:/3D Objects/OSdomia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
