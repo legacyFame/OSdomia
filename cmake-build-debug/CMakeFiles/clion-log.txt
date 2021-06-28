@@ -1,0 +1,4 @@
+"N:\Padfoot\Jetbrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=N:/Padfoot/MinGW/bin/gcc.exe -G "CodeBlocks - MinGW Makefiles" "N:\3D Objects\OSdomia"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: N:/3D Objects/OSdomia/cmake-build-debug
