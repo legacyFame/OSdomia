@@ -1,0 +1,3 @@
+"N:\Padfoot\Jetbrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\OSdomia.dir/objects.a
+N:\Padfoot\MinGW\bin\ar.exe cr CMakeFiles\OSdomia.dir/objects.a @CMakeFiles\OSdomia.dir\objects1.rsp
+N:\Padfoot\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\OSdomia.dir/objects.a -Wl,--no-whole-archive  -o OSdomia.exe -Wl,--out-implib,libOSdomia.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OSdomia.dir\linklibs.rsp
