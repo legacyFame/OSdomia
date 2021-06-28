@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -9,7 +27,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cff04b65-dab8-4d29-9672-b2dcfd67971d" name="Default Changelist" comment="" />
+    <list default="true" id="cff04b65-dab8-4d29-9672-b2dcfd67971d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/OSdomia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OSdomia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSdomia.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSdomia.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSdomia.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSdomia.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSdomia.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OSdomia.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OSdomia.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemCalls.c" beforeDir="false" afterPath="$PROJECT_DIR$/systemCalls.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,27 +45,35 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uYRzhGtjCn3n6Zky1GCfKEj9gU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="N:\3D Objects\OSdomia" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OSdomia" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="OSdomia" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OSdomia" TARGET_NAME="OSdomia" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OSdomia" RUN_TARGET_NAME="OSdomia">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -52,25 +87,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624840814286</updated>
-      <workItem from="1624840840128" duration="305000" />
+      <workItem from="1624840840128" duration="1092000" />
+      <workItem from="1624846393158" duration="932000" />
+      <workItem from="1624847469690" duration="1128000" />
+      <workItem from="1624848705035" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624840922464">
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624844778675">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1624840922464" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1624841128692">
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1624844778675" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1624847321940">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1624841128692" />
-    <state x="184" y="14" key="SettingsEditor" timestamp="1624841149621">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1624847321940" />
+    <state width="1286" height="166" key="GridCell.Tab.0.bottom" timestamp="1624848628035">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1624841149621" />
+    <state width="1286" height="166" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1624848628035" />
+    <state width="1286" height="166" key="GridCell.Tab.0.center" timestamp="1624848628034">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="166" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1624848628034" />
+    <state width="1286" height="166" key="GridCell.Tab.0.left" timestamp="1624848628033">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="166" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1624848628033" />
+    <state width="1286" height="166" key="GridCell.Tab.0.right" timestamp="1624848628034">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="166" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1624848628034" />
+    <state x="-7" y="0" width="916" height="738" key="SettingsEditor" timestamp="1624848871027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="-7" y="0" width="916" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1624848871027" />
+    <state x="-7" y="0" width="861" height="738" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1624848870214">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="-7" y="0" width="861" height="738" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1624848870214" />
   </component>
 </project>

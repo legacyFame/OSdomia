@@ -1,4 +1,7 @@
-//
-// Created by Hiro on 6/28/2021.
-//
+
+int main() {
+    printf("Hi1");
+    return 1;
+}
+
 
