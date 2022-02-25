@@ -17,7 +17,7 @@ struct Pager
 {
     int capacity;
     int i;
-    int* arr;
+    int** arr;
 };
 
 bool in_pager( Pager page,int no){
@@ -38,7 +38,7 @@ struct Map{
 struct Mapper{
     int capacity;
     int i;
-    Map *maps;
+    Map **maps;
 };
 
 void push(Mapper* m,int key,int val){
@@ -47,7 +47,7 @@ void push(Mapper* m,int key,int val){
     else
     {
       Map *map = (Map*) malloc(sizeof(Map));
-      map->key= key;
+      map->key = key;
       map->val = val;
       m->maps[i] = map;
       m->i++;    
@@ -64,9 +64,9 @@ void main(){
     // int capacity = toInt(input("Whats the capacity"));
     // int page_faults=0;
     int capacity=4;
-    Pager P1 = {capacity,1,malloc(sizeof(int*))};
-    Mapper M1 = {0,capacity,malloc(sizeof(Map)*capacity)};
-
+    Pager P1 = {capacity,1,malloc(sizeof(int*)*capacity)};
+    Mapper M1 = {capacity,0,malloc(sizeof(Map)*capacity)};
+    push(&M1,1,2);
 
 
 }
