@@ -5,9 +5,13 @@
 #include <stdbool.h>
 #include <string.h>
 
-char* input(){ //safest way using pointer to get string in for strlen to work properly
+// https://www.javatpoint.com/return-an-array-in-c
+// https://en.wikipedia.org/wiki/Variadic_function#Example_in_C
+
+char* input(char* q){ //safest way using pointer to get string in for strlen to work properly
     // puts(q);
     char *str = (char *) malloc(sizeof(1000));
+    // scanf("%s",str);
     gets(str); //takes 1st line
     return str;
 }
@@ -24,14 +28,21 @@ char** split(char str[], char delims[]) {
     return answer;
 }
 
+typedef struct number number;
+
+struct number{
+    int k;
+};
+
 int len(char str[], char delims[]) {
     char *token = strtok(str, delims);
-    int size = 0;
+    int size=0;
+    // size = 0;
     while (token != NULL){
         size++;
         token = strtok(NULL, delims);
     }
-    return size;
+    return 1;
 }
 
 int lenString(char str[], char delims[]) {
@@ -63,6 +74,15 @@ int toInt(char c[]) {
     sscanf(c, "%d", &value);
     // printf("%d val",value);
     return value;
+}
+
+int* toIntArray( char** arrc, int size){
+    int *arri= malloc(sizeof(size));  //2nd method Dynamically allocated so the local var is not delocated after return
+    for(int i=0;i<size;i++){
+        int cur = toInt(arrc[i]);
+        arri[i] = cur;
+    }
+    return arri;
 }
 
 char* toString(char *str, int no) { // usage - char *str; str = toString(str,100);
