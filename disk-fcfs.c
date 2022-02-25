@@ -5,6 +5,8 @@
 //FCFS
 
 #define hello() (printf("hi")) //macro
+//Disk Access Time = Seek Time + Rotational Latency + Transfer Time
+
 
 void main(){
     int head=0;  //arg
