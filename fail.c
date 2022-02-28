@@ -37,6 +37,7 @@ struct Mapper{
     int capacity;
     int i;
     Map **maps;
+    void (*push)(Mapper* m,int key,int val);
 };
 
 void push(Mapper* m,int key,int val){
@@ -52,15 +53,8 @@ void push(Mapper* m,int key,int val){
     }
 }
 
-int get(Mapper *m,int key){
-    for (int i=0;i<m->i;i++)
-        if(m->maps[i]->key==key) return m->maps[i]->val;
-    return 0;    
-}
-
 
 void main(){
-    printf("\n");
     // char *ini = input('Page Request Array');
     // char** arr = split(ini," ");
     // int size = toInt(input("Whats the size of the Array?"));
@@ -70,9 +64,8 @@ void main(){
     int capacity=4;
     Pager P1 = {capacity,1,malloc(sizeof(int*)*capacity)};
     Mapper M1 = {capacity,0,malloc(sizeof(Map)*capacity),&push};
-    push(&M1,1,2);
-    // get(&M1,1);
-    // printf("%d",get(&M1,1));
+    M1.push(&M1,1,2);
+    printf("%d",M1.maps[0]->key);
 }
     // int* he = len("ST SD"," ");
     // P1.arr[0]=1;

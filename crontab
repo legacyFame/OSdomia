@@ -1,0 +1,3 @@
+#https://crontab.guru/#5_0_*_8_*
+
+*/5 * * * * sudo macchanger -r enp3s0
